@@ -3,6 +3,9 @@
 It is a simple script to help with execute command or connect to ECS instances.
 
 ## Using
+This script use aws profiles to manage multi-account architecture and etc. 
+To use it you have to use credentails file https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+
 ```python3 ./aws_session_connector.py {region} {command}```
 
 ### arguments
