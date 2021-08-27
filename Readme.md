@@ -20,7 +20,6 @@ To use it you have to use credentails file https://docs.aws.amazon.com/cli/lates
 
 ## Troubleshooting
 - ```No items to show. Exit``` - there is no clusters or services or tasks or containers to show
-- ```No items to show. Exit``` - there is no clusters or services or tasks or containers to show
 - ```Region not set, please pass region as first argument.``` - you must pass region at first argument
 - ```Client error...``` - there is problem with communication with aws. Token expired?
 - ```An error occurred (InvalidParameterException) when calling the ExecuteCommand operation: The execute command failed because execute command was not enabled when the task was run or the execute command agent isn’t running. Wait and try again or run a new task with execute command enabled and try again.``` - Command execute is disabled. Every problem with connection to container you can check using awsome tool: https://github.com/aws-containers/amazon-ecs-exec-checker  
