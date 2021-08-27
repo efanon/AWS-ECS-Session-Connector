@@ -3,7 +3,7 @@
 It is a simple script to help with execute command or connect to ECS instances.
 
 ## Using
-python3 ./aws_session_connector.py {region} {command}
+```python3 ./aws_session_connector.py {region} {command}```
 
 ### arguments
 - region - code of AWS region (required)
